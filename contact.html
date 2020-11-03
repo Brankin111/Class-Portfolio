@@ -7,7 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- TITLE TAG -->
     <title>Brandon Rankin | Front End Web Developer</title>
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap" rel="stylesheet">
     <!-- CSS LINKS -->
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
 </head>
 
@@ -15,8 +20,8 @@
     <!-- Header Start -->
     <header>
         <!-- Clickable Title to Index Page -->
-        <a href="index.html">
-            <h1>Brandon Rankin</h1>
+        <a href="index.html" id="logo">
+            <h1>Brandon</h1>
             <h2>Front End Web Developer</h2>
         </a>
         <!-- Navigation Start -->
@@ -32,25 +37,25 @@
         <!-- Header End -->
     </header>
 
-    <div>
+    <div id="wrapper">
         <!-- Start of First Column -->
-        <section>
+        <section id="primary">
             <!-- Title -->
             <h3>General Information</h3>
             <!-- General Information -->
-            <p>For general inquiries, the best way to reah me is by <a href="mailto:brankin111@gmail.com">email</a></p>
+            <p>For general inquiries, the best way to reach me is by <a href="mailto:brankin111@gmail.com">email</a></p>
         </section>
         <!-- End of First Column -->
 
         <!-- Start of Second Column -->
-        <section>
+        <section id="secondary">
             <!-- Title -->
             <h3>Contact Information</h3>
             <!-- Contact Information -->
-            <ul>
-                <li><a href="tel:2707345354">(270)734-5354</a></li>
-                <li><a href="mailto:brankin111@gmail.com">Brankin111@gmail.com</a></li>
-                <li><a href="https://www.facebook.com/brankin3">@brankin3</a></li>
+            <ul class="contact-info">
+                <li class="phone"><a href="tel:2707345354">(270)734-5354</a></li>
+                <li class="email"><a href="mailto:brankin111@gmail.com">Brankin111@gmail.com</a></li>
+                <li class="twitter"><a href="https://www.facebook.com/brankin3">@brankin3</a></li>
             </ul>
         </section>
         <!-- End of Second Column -->
@@ -60,9 +65,9 @@
     <!-- Footer Start-->
     <footer>
         <!-- Twitter Link thats clickable and opens in a new tab -->
-        <a href="#" target="_blank"><img src="img (1)/img/twitter-wrap.png"></a>
+        <a href="#" target="_blank"><img src="img/img/twitter-wrap.png" class="social-icon"></a>
         <!-- Facebook Link thats clickable and opens in a new tab -->
-        <a href="https://www.facebook.com/brankin3" target="_blank"><img src="img (1)/img/facebook-wrap.png"></a>
+        <a href="https://www.facebook.com/brankin3" target="_blank"><img src="img/img/facebook-wrap.png" class="social-icon"></a>
         <!-- Copyright Info -->
         <p>&copy; 2020 Brandon Rankin</p>
         <!-- Footer End -->
