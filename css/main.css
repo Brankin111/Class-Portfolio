@@ -17,6 +17,7 @@ li {
 h1 {
     font-size: 1.75em;
     font-weight: 800;
+    margin-top: 0;
 }
 
 h2 {
@@ -29,6 +30,13 @@ img {
     max-width: 100%;
 }
 
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+    clear: both;
+}
+
 
 /***********
 HEADER
@@ -36,12 +44,14 @@ HEADER
 
 #logo {
     text-align: center;
+    margin: 0;
 }
 
 header {
     width: 100%;
     margin: 0 0 30px 0;
     padding: 5px 0 0 0;
+    float: left;
 }
 
 
@@ -52,7 +62,7 @@ NAVIGATION
 nav {
     text-align: center;
     padding: 10px 0;
-    margin: 10px 0 0;
+    margin: 60px 0 0;
 }
 
 nav ul {
@@ -167,6 +177,7 @@ body {
 
 header {
     background: #6ab47b;
+    border-color: #599a68;
 }
 
 /*background on mobile*/
